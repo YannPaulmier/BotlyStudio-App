@@ -1,0 +1,15 @@
+# 1 "C:\\Users\\jtopart\\Documents\\GitHub\\BotlyStudio-App\\builder\\sketch\\sketch.ino"
+# 1 "C:\\Users\\jtopart\\Documents\\GitHub\\BotlyStudio-App\\builder\\sketch\\sketch.ino"
+# 2 "C:\\Users\\jtopart\\Documents\\GitHub\\BotlyStudio-App\\builder\\sketch\\sketch.ino" 2
+
+Botly robot(1 /* Version de base de Botly*/);
+
+void setup() {
+  robot.setSpeed(35);
+  robot.init();
+}
+
+void loop() {
+  robot.avancer(10);
+
+}
